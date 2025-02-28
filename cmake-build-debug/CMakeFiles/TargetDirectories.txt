@@ -1,0 +1,2 @@
+/Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
