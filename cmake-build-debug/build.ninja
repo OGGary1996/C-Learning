@@ -39,13 +39,642 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/zhang/Documents/C_project/C_Exercise/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_function
+
+
+#############################################
+# Order-only phony target for 10_function
+
+build cmake_object_order_depends_target_10_function: phony || .
+
+build CMakeFiles/10_function.dir/src/10_function.c.obj: C_COMPILER__10_function_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/10_function.c || cmake_object_order_depends_target_10_function
+  DEP_FILE = CMakeFiles\10_function.dir\src\10_function.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\10_function.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_function.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\10_function.dir\
+  TARGET_PDB = 10_function.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_function
+
+
+#############################################
+# Link the executable 10_function.exe
+
+build 10_function.exe: C_EXECUTABLE_LINKER__10_function_Debug CMakeFiles/10_function.dir/src/10_function.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10_function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\10_function.dir\
+  TARGET_FILE = 10_function.exe
+  TARGET_IMPLIB = lib10_function.dll.a
+  TARGET_PDB = 10_function.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_function_rand
+
+
+#############################################
+# Order-only phony target for 10_function_rand
+
+build cmake_object_order_depends_target_10_function_rand: phony || .
+
+build CMakeFiles/10_function_rand.dir/src/10_function_rand.c.obj: C_COMPILER__10_function_rand_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/10_function_rand.c || cmake_object_order_depends_target_10_function_rand
+  DEP_FILE = CMakeFiles\10_function_rand.dir\src\10_function_rand.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\10_function_rand.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_function_rand.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\10_function_rand.dir\
+  TARGET_PDB = 10_function_rand.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_function_rand
+
+
+#############################################
+# Link the executable 10_function_rand.exe
+
+build 10_function_rand.exe: C_EXECUTABLE_LINKER__10_function_rand_Debug CMakeFiles/10_function_rand.dir/src/10_function_rand.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10_function_rand.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\10_function_rand.dir\
+  TARGET_FILE = 10_function_rand.exe
+  TARGET_IMPLIB = lib10_function_rand.dll.a
+  TARGET_PDB = 10_function_rand.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_function_time
+
+
+#############################################
+# Order-only phony target for 10_function_time
+
+build cmake_object_order_depends_target_10_function_time: phony || .
+
+build CMakeFiles/10_function_time.dir/src/10_function_time.c.obj: C_COMPILER__10_function_time_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/10_function_time.c || cmake_object_order_depends_target_10_function_time
+  DEP_FILE = CMakeFiles\10_function_time.dir\src\10_function_time.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\10_function_time.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_function_time.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\10_function_time.dir\
+  TARGET_PDB = 10_function_time.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_function_time
+
+
+#############################################
+# Link the executable 10_function_time.exe
+
+build 10_function_time.exe: C_EXECUTABLE_LINKER__10_function_time_Debug CMakeFiles/10_function_time.dir/src/10_function_time.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10_function_time.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\10_function_time.dir\
+  TARGET_FILE = 10_function_time.exe
+  TARGET_IMPLIB = lib10_function_time.dll.a
+  TARGET_PDB = 10_function_time.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11_array_0
+
+
+#############################################
+# Order-only phony target for 11_array_0
+
+build cmake_object_order_depends_target_11_array_0: phony || .
+
+build CMakeFiles/11_array_0.dir/src/11_array_0.c.obj: C_COMPILER__11_array_0_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/11_array_0.c || cmake_object_order_depends_target_11_array_0
+  DEP_FILE = CMakeFiles\11_array_0.dir\src\11_array_0.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\11_array_0.dir
+  OBJECT_FILE_DIR = CMakeFiles\11_array_0.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_0.dir\
+  TARGET_PDB = 11_array_0.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11_array_0
+
+
+#############################################
+# Link the executable 11_array_0.exe
+
+build 11_array_0.exe: C_EXECUTABLE_LINKER__11_array_0_Debug CMakeFiles/11_array_0.dir/src/11_array_0.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11_array_0.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_0.dir\
+  TARGET_FILE = 11_array_0.exe
+  TARGET_IMPLIB = lib11_array_0.dll.a
+  TARGET_PDB = 11_array_0.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11_array_1_memory
+
+
+#############################################
+# Order-only phony target for 11_array_1_memory
+
+build cmake_object_order_depends_target_11_array_1_memory: phony || .
+
+build CMakeFiles/11_array_1_memory.dir/src/11_array_1_memory.c.obj: C_COMPILER__11_array_1_memory_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/11_array_1_memory.c || cmake_object_order_depends_target_11_array_1_memory
+  DEP_FILE = CMakeFiles\11_array_1_memory.dir\src\11_array_1_memory.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\11_array_1_memory.dir
+  OBJECT_FILE_DIR = CMakeFiles\11_array_1_memory.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_1_memory.dir\
+  TARGET_PDB = 11_array_1_memory.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11_array_1_memory
+
+
+#############################################
+# Link the executable 11_array_1_memory.exe
+
+build 11_array_1_memory.exe: C_EXECUTABLE_LINKER__11_array_1_memory_Debug CMakeFiles/11_array_1_memory.dir/src/11_array_1_memory.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11_array_1_memory.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_1_memory.dir\
+  TARGET_FILE = 11_array_1_memory.exe
+  TARGET_IMPLIB = lib11_array_1_memory.dll.a
+  TARGET_PDB = 11_array_1_memory.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11_array_2_passing
+
+
+#############################################
+# Order-only phony target for 11_array_2_passing
+
+build cmake_object_order_depends_target_11_array_2_passing: phony || .
+
+build CMakeFiles/11_array_2_passing.dir/src/11_array_2_passing.c.obj: C_COMPILER__11_array_2_passing_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/11_array_2_passing.c || cmake_object_order_depends_target_11_array_2_passing
+  DEP_FILE = CMakeFiles\11_array_2_passing.dir\src\11_array_2_passing.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\11_array_2_passing.dir
+  OBJECT_FILE_DIR = CMakeFiles\11_array_2_passing.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_2_passing.dir\
+  TARGET_PDB = 11_array_2_passing.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11_array_2_passing
+
+
+#############################################
+# Link the executable 11_array_2_passing.exe
+
+build 11_array_2_passing.exe: C_EXECUTABLE_LINKER__11_array_2_passing_Debug CMakeFiles/11_array_2_passing.dir/src/11_array_2_passing.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11_array_2_passing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_2_passing.dir\
+  TARGET_FILE = 11_array_2_passing.exe
+  TARGET_IMPLIB = lib11_array_2_passing.dll.a
+  TARGET_PDB = 11_array_2_passing.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11_array_3_operations
+
+
+#############################################
+# Order-only phony target for 11_array_3_operations
+
+build cmake_object_order_depends_target_11_array_3_operations: phony || .
+
+build CMakeFiles/11_array_3_operations.dir/src/11_array_3_operations.c.obj: C_COMPILER__11_array_3_operations_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/11_array_3_operations.c || cmake_object_order_depends_target_11_array_3_operations
+  DEP_FILE = CMakeFiles\11_array_3_operations.dir\src\11_array_3_operations.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\11_array_3_operations.dir
+  OBJECT_FILE_DIR = CMakeFiles\11_array_3_operations.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_3_operations.dir\
+  TARGET_PDB = 11_array_3_operations.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11_array_3_operations
+
+
+#############################################
+# Link the executable 11_array_3_operations.exe
+
+build 11_array_3_operations.exe: C_EXECUTABLE_LINKER__11_array_3_operations_Debug CMakeFiles/11_array_3_operations.dir/src/11_array_3_operations.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11_array_3_operations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\11_array_3_operations.dir\
+  TARGET_FILE = 11_array_3_operations.exe
+  TARGET_IMPLIB = lib11_array_3_operations.dll.a
+  TARGET_PDB = 11_array_3_operations.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_hellow_world
+
+
+#############################################
+# Order-only phony target for 1_hellow_world
+
+build cmake_object_order_depends_target_1_hellow_world: phony || .
+
+build CMakeFiles/1_hellow_world.dir/src/1_hellow_world.c.obj: C_COMPILER__1_hellow_world_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/1_hellow_world.c || cmake_object_order_depends_target_1_hellow_world
+  DEP_FILE = CMakeFiles\1_hellow_world.dir\src\1_hellow_world.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\1_hellow_world.dir
+  OBJECT_FILE_DIR = CMakeFiles\1_hellow_world.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\1_hellow_world.dir\
+  TARGET_PDB = 1_hellow_world.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_hellow_world
+
+
+#############################################
+# Link the executable 1_hellow_world.exe
+
+build 1_hellow_world.exe: C_EXECUTABLE_LINKER__1_hellow_world_Debug CMakeFiles/1_hellow_world.dir/src/1_hellow_world.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1_hellow_world.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\1_hellow_world.dir\
+  TARGET_FILE = 1_hellow_world.exe
+  TARGET_IMPLIB = lib1_hellow_world.dll.a
+  TARGET_PDB = 1_hellow_world.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_printf
+
+
+#############################################
+# Order-only phony target for 2_printf
+
+build cmake_object_order_depends_target_2_printf: phony || .
+
+build CMakeFiles/2_printf.dir/src/2_printf.c.obj: C_COMPILER__2_printf_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/2_printf.c || cmake_object_order_depends_target_2_printf
+  DEP_FILE = CMakeFiles\2_printf.dir\src\2_printf.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\2_printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_printf.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\2_printf.dir\
+  TARGET_PDB = 2_printf.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_printf
+
+
+#############################################
+# Link the executable 2_printf.exe
+
+build 2_printf.exe: C_EXECUTABLE_LINKER__2_printf_Debug CMakeFiles/2_printf.dir/src/2_printf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2_printf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_printf.dir\
+  TARGET_FILE = 2_printf.exe
+  TARGET_IMPLIB = lib2_printf.dll.a
+  TARGET_PDB = 2_printf.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3_data_types
+
+
+#############################################
+# Order-only phony target for 3_data_types
+
+build cmake_object_order_depends_target_3_data_types: phony || .
+
+build CMakeFiles/3_data_types.dir/src/3_data_types.c.obj: C_COMPILER__3_data_types_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/3_data_types.c || cmake_object_order_depends_target_3_data_types
+  DEP_FILE = CMakeFiles\3_data_types.dir\src\3_data_types.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\3_data_types.dir
+  OBJECT_FILE_DIR = CMakeFiles\3_data_types.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\3_data_types.dir\
+  TARGET_PDB = 3_data_types.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3_data_types
+
+
+#############################################
+# Link the executable 3_data_types.exe
+
+build 3_data_types.exe: C_EXECUTABLE_LINKER__3_data_types_Debug CMakeFiles/3_data_types.dir/src/3_data_types.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3_data_types.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\3_data_types.dir\
+  TARGET_FILE = 3_data_types.exe
+  TARGET_IMPLIB = lib3_data_types.dll.a
+  TARGET_PDB = 3_data_types.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4_constant
+
+
+#############################################
+# Order-only phony target for 4_constant
+
+build cmake_object_order_depends_target_4_constant: phony || .
+
+build CMakeFiles/4_constant.dir/src/4_constant.c.obj: C_COMPILER__4_constant_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/4_constant.c || cmake_object_order_depends_target_4_constant
+  DEP_FILE = CMakeFiles\4_constant.dir\src\4_constant.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\4_constant.dir
+  OBJECT_FILE_DIR = CMakeFiles\4_constant.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\4_constant.dir\
+  TARGET_PDB = 4_constant.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4_constant
+
+
+#############################################
+# Link the executable 4_constant.exe
+
+build 4_constant.exe: C_EXECUTABLE_LINKER__4_constant_Debug CMakeFiles/4_constant.dir/src/4_constant.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4_constant.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\4_constant.dir\
+  TARGET_FILE = 4_constant.exe
+  TARGET_IMPLIB = lib4_constant.dll.a
+  TARGET_PDB = 4_constant.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5_operations
+
+
+#############################################
+# Order-only phony target for 5_operations
+
+build cmake_object_order_depends_target_5_operations: phony || .
+
+build CMakeFiles/5_operations.dir/src/5_operations.c.obj: C_COMPILER__5_operations_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/5_operations.c || cmake_object_order_depends_target_5_operations
+  DEP_FILE = CMakeFiles\5_operations.dir\src\5_operations.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\5_operations.dir
+  OBJECT_FILE_DIR = CMakeFiles\5_operations.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\5_operations.dir\
+  TARGET_PDB = 5_operations.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5_operations
+
+
+#############################################
+# Link the executable 5_operations.exe
+
+build 5_operations.exe: C_EXECUTABLE_LINKER__5_operations_Debug CMakeFiles/5_operations.dir/src/5_operations.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5_operations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\5_operations.dir\
+  TARGET_FILE = 5_operations.exe
+  TARGET_IMPLIB = lib5_operations.dll.a
+  TARGET_PDB = 5_operations.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6_user_input
+
+
+#############################################
+# Order-only phony target for 6_user_input
+
+build cmake_object_order_depends_target_6_user_input: phony || .
+
+build CMakeFiles/6_user_input.dir/src/6_user_input.c.obj: C_COMPILER__6_user_input_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/6_user_input.c || cmake_object_order_depends_target_6_user_input
+  DEP_FILE = CMakeFiles\6_user_input.dir\src\6_user_input.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\6_user_input.dir
+  OBJECT_FILE_DIR = CMakeFiles\6_user_input.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\6_user_input.dir\
+  TARGET_PDB = 6_user_input.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6_user_input
+
+
+#############################################
+# Link the executable 6_user_input.exe
+
+build 6_user_input.exe: C_EXECUTABLE_LINKER__6_user_input_Debug CMakeFiles/6_user_input.dir/src/6_user_input.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\6_user_input.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\6_user_input.dir\
+  TARGET_FILE = 6_user_input.exe
+  TARGET_IMPLIB = lib6_user_input.dll.a
+  TARGET_PDB = 6_user_input.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7_math_operations_1
+
+
+#############################################
+# Order-only phony target for 7_math_operations_1
+
+build cmake_object_order_depends_target_7_math_operations_1: phony || .
+
+build CMakeFiles/7_math_operations_1.dir/src/7_math_operations_1.c.obj: C_COMPILER__7_math_operations_1_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/7_math_operations_1.c || cmake_object_order_depends_target_7_math_operations_1
+  DEP_FILE = CMakeFiles\7_math_operations_1.dir\src\7_math_operations_1.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\7_math_operations_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\7_math_operations_1.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\7_math_operations_1.dir\
+  TARGET_PDB = 7_math_operations_1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7_math_operations_1
+
+
+#############################################
+# Link the executable 7_math_operations_1.exe
+
+build 7_math_operations_1.exe: C_EXECUTABLE_LINKER__7_math_operations_1_Debug CMakeFiles/7_math_operations_1.dir/src/7_math_operations_1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\7_math_operations_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\7_math_operations_1.dir\
+  TARGET_FILE = 7_math_operations_1.exe
+  TARGET_IMPLIB = lib7_math_operations_1.dll.a
+  TARGET_PDB = 7_math_operations_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7_math_operations_2
+
+
+#############################################
+# Order-only phony target for 7_math_operations_2
+
+build cmake_object_order_depends_target_7_math_operations_2: phony || .
+
+build CMakeFiles/7_math_operations_2.dir/src/7_math_operations_2.c.obj: C_COMPILER__7_math_operations_2_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/7_math_operations_2.c || cmake_object_order_depends_target_7_math_operations_2
+  DEP_FILE = CMakeFiles\7_math_operations_2.dir\src\7_math_operations_2.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\7_math_operations_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\7_math_operations_2.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\7_math_operations_2.dir\
+  TARGET_PDB = 7_math_operations_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7_math_operations_2
+
+
+#############################################
+# Link the executable 7_math_operations_2.exe
+
+build 7_math_operations_2.exe: C_EXECUTABLE_LINKER__7_math_operations_2_Debug CMakeFiles/7_math_operations_2.dir/src/7_math_operations_2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\7_math_operations_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\7_math_operations_2.dir\
+  TARGET_FILE = 7_math_operations_2.exe
+  TARGET_IMPLIB = lib7_math_operations_2.dll.a
+  TARGET_PDB = 7_math_operations_2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8_if_switch
+
+
+#############################################
+# Order-only phony target for 8_if_switch
+
+build cmake_object_order_depends_target_8_if_switch: phony || .
+
+build CMakeFiles/8_if_switch.dir/src/8_if_switch.c.obj: C_COMPILER__8_if_switch_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/8_if_switch.c || cmake_object_order_depends_target_8_if_switch
+  DEP_FILE = CMakeFiles\8_if_switch.dir\src\8_if_switch.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\8_if_switch.dir
+  OBJECT_FILE_DIR = CMakeFiles\8_if_switch.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\8_if_switch.dir\
+  TARGET_PDB = 8_if_switch.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8_if_switch
+
+
+#############################################
+# Link the executable 8_if_switch.exe
+
+build 8_if_switch.exe: C_EXECUTABLE_LINKER__8_if_switch_Debug CMakeFiles/8_if_switch.dir/src/8_if_switch.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\8_if_switch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\8_if_switch.dir\
+  TARGET_FILE = 8_if_switch.exe
+  TARGET_IMPLIB = lib8_if_switch.dll.a
+  TARGET_PDB = 8_if_switch.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9_loops
+
+
+#############################################
+# Order-only phony target for 9_loops
+
+build cmake_object_order_depends_target_9_loops: phony || .
+
+build CMakeFiles/9_loops.dir/src/9_loops.c.obj: C_COMPILER__9_loops_unscanned_Debug C$:/Users/zhang/Documents/C_project/C_Exercise/src/9_loops.c || cmake_object_order_depends_target_9_loops
+  DEP_FILE = CMakeFiles\9_loops.dir\src\9_loops.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/zhang/Documents/C_project/C_Exercise/include
+  OBJECT_DIR = CMakeFiles\9_loops.dir
+  OBJECT_FILE_DIR = CMakeFiles\9_loops.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\9_loops.dir\
+  TARGET_PDB = 9_loops.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9_loops
+
+
+#############################################
+# Link the executable 9_loops.exe
+
+build 9_loops.exe: C_EXECUTABLE_LINKER__9_loops_Debug CMakeFiles/9_loops.dir/src/9_loops.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9_loops.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\9_loops.dir\
+  TARGET_FILE = 9_loops.exe
+  TARGET_IMPLIB = lib9_loops.dll.a
+  TARGET_PDB = 9_loops.pdb
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zhang\Documents\C_project\C_Exercise\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +685,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/zhangke/Documents/C_Project/C_Exercise -B/Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zhang\Documents\C_project\C_Exercise\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\zhang\Documents\C_project\C_Exercise -BC:\Users\zhang\Documents\C_project\C_Exercise\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -66,15 +695,49 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 10_function: phony 10_function.exe
+
+build 10_function_rand: phony 10_function_rand.exe
+
+build 10_function_time: phony 10_function_time.exe
+
+build 11_array_0: phony 11_array_0.exe
+
+build 11_array_1_memory: phony 11_array_1_memory.exe
+
+build 11_array_2_passing: phony 11_array_2_passing.exe
+
+build 11_array_3_operations: phony 11_array_3_operations.exe
+
+build 1_hellow_world: phony 1_hellow_world.exe
+
+build 2_printf: phony 2_printf.exe
+
+build 3_data_types: phony 3_data_types.exe
+
+build 4_constant: phony 4_constant.exe
+
+build 5_operations: phony 5_operations.exe
+
+build 6_user_input: phony 6_user_input.exe
+
+build 7_math_operations_1: phony 7_math_operations_1.exe
+
+build 7_math_operations_2: phony 7_math_operations_2.exe
+
+build 8_if_switch: phony 8_if_switch.exe
+
+build 9_loops: phony 9_loops.exe
+
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/zhangke/Documents/C_Project/C_Exercise/cmake-build-debug
+# Folder: C:/Users/zhang/Documents/C_project/C_Exercise/cmake-build-debug
 
-build all: phony
+build all: phony 10_function.exe 10_function_rand.exe 10_function_time.exe 11_array_0.exe 11_array_1_memory.exe 11_array_2_passing.exe 11_array_3_operations.exe 1_hellow_world.exe 2_printf.exe 3_data_types.exe 4_constant.exe 5_operations.exe 6_user_input.exe 7_math_operations_1.exe 7_math_operations_2.exe 8_if_switch.exe 9_loops.exe
 
 # =============================================================================
 # Built-in targets
@@ -83,14 +746,14 @@ build all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/zhangke/Documents/C_Project/C_Exercise/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/zhang/Documents/C_project/C_Exercise/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/zhangke/Documents/C_Project/C_Exercise/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Users/zhang/Documents/C_project/C_Exercise/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
